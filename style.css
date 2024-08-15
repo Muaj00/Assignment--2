@@ -243,4 +243,60 @@ body{
     font-size: 0.8rem;
     text-align: center;
 }
-/* section-01 ends */
+/* ======================section-01 ends=========================== */
+
+.run-container{
+    width: 1060px;
+    height: 370px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #222222;
+    margin-bottom: 100px;
+}
+
+.run-miles{
+    height: 290px;
+    width: 443px;
+    /* padding: 40px 100px 40px  54px; */
+    padding: 40px;
+}
+.run-title{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: start;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.run-description{
+    color: rgba(239, 237, 232, 0.50);
+    font-size: 0.8rem;
+    text-align: start;
+    margin-bottom: 34px;
+    line-height: 25px;
+}
+
+.run-btn{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 61px;
+    background-color: #E6533C;
+    border-radius: 42px;
+    border: none;
+    cursor: pointer;
+}
+.run-img{
+    width: 366px;
+    height: 312px;
+    border-radius: 60px;
+    /* margin: 30px 662px 30px 32px; */
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+/* ======================section-02 ends=========================== */
