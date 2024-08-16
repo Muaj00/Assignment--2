@@ -37,6 +37,12 @@ body{
     margin-top: 30px;
     
 }
+
+.icon{
+    color: white;
+    visibility: hidden;
+    overflow: hidden;
+}
  .nav-title{
     font-weight: bolder;
     font-size: 2.25rem;
@@ -601,8 +607,75 @@ form{
     text-align: start;
     margin-left: 15px;
 }
-/* section-04 ends */
-
+/* ==================section-04 ends====================== */
+.footer-container{
+    width: 100%;
+    height: 490px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
 .footer-content{
+    width: 1060px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+    padding-top: 100px;
+}
+.fotter-title{
+    font-size: 4.3rem;
+    font-weight: 700;
+    color: #E6533C;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    margin-top: 15px;
+    line-height: 30px;
+}
 
+.footer-col1{
+    width: 443px;
+    height: 180px;
+}
+
+.footer-col2{
+    width: 200px;
+    height: 250px;
+    margin-right: 150px;
+}
+
+.footer-col-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 25px;
+}
+.footer-col3{
+    width: 200px;
+    height: 250px;
+}
+
+.footer-li li{
+    list-style: none;
+    text-align: start;
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.footer-hr{
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: white;
+    opacity: 0.1;
+}
+
+.footer-txt{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
 }
