@@ -300,3 +300,169 @@ body{
 }
 
 /* ======================section-02 ends=========================== */
+
+.healthy-container{
+    width: 1200px;
+    height: 1000px;
+    /* background-color: rgb(185, 190, 190, 0.55); */
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+
+.healthy-title{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.healthy-font{
+    font-family: 'miama';
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.healthy-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.healthy-card{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.healthy-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.healthy-card-title{
+    color: aliceblue;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'miama';
+}
+
+.healthy-btn{
+   padding: 14px 30px;
+   margin-left: 50px;
+}
+/* ======================custom section ends======================== */
+.bmi-container{
+    width: 100%;
+    height: 490px;
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 175px;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin: 0 auto;
+}
+.bmi-table-container{
+    margin-left: 190px;
+}
+.bmi{
+    width: 670px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.bmi-table-title h3{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 0px;
+}
+
+.bmi-title{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: start;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.bmi-description{
+    color: rgba(239, 237, 232, 0.50);
+    font-size: 0.8rem;
+    text-align: start;
+}
+table{
+    width: 310px;
+    height: 216px;
+}
+table, tr, td, th{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.6rem;
+}
+td, th{
+    padding: 10px 20px;
+}
+th{
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: start;
+}
+
+.bmi-form{
+    width: 577px;
+    height: 386px;
+    margin-top: 35px;
+    margin-right: 190px;
+}
+
+.bmi-form-title{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.bmi-form-description{
+    color: rgba(239, 237, 232, 0.50);
+    font-size: 0.8rem;
+    text-align: start;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+/* form div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} */
+
+.form-input{
+    padding: 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+}
+#special-input{
+    padding: 13px 40px;
+    width: 175%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+#cal-btn{
+    margin-top: 25px;
+}
+
+/* =========================section-03 ends========================= */
